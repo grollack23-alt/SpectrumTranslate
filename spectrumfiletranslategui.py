@@ -2713,7 +2713,7 @@ frequency must be between 0 and 255 decimal.")
             s += " - " + key
 
         elif lwInstruction.di.instruction in [spectrumtranslate.
-             DisassembleInstruction.DISASSEMBLE_CODES["Comment"].
+             DisassembleInstruction.DISASSEMBLE_CODES["Comment"],
              spectrumtranslate.DisassembleInstruction.
              DISASSEMBLE_CODES["Comment Before"],
              spectrumtranslate.DisassembleInstruction.
